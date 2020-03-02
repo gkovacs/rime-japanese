@@ -6,7 +6,7 @@ name: nihongo-hybrid
 version: 'v0.2-20180411'
 
 import_tables:
-  - 'nihongo-hybrid.dict/nihongo-hybrid.mozc'
-  - 'nihongo-hybrid.dict/nihongo-hybrid.jmdict'
-  - 'nihongo-hybrid.dict/nihongo-hybrid.kana'
+  - 'nihongo-hybrid.mozc'
+  - 'nihongo-hybrid.jmdict'
+  - 'nihongo-hybrid.kana'
 ...
