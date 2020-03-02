@@ -77,7 +77,7 @@ speller:
     # - 'derive/fu/hu/'
 
 translator:
-  dictionary: nihongo-hybrid
+  dictionary: japanese
   spelling_hints: 5
   comment_format:
     - 'xlit|q|ー|'
@@ -185,7 +185,7 @@ putonghua_to_kanji_lookup:
 
 putonghua_to_kanji_reverse_lookup:
   tags: [ putonghua_to_kanji_lookup ]
-  dictionary: nihongo-hybrid
+  dictionary: japanese
   spelling_hints: 10
   comment_format:
     - 'xlit|q|ー|'
