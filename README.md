@@ -1,4 +1,4 @@
-# rime-hapanese
+# rime-japanese
 
 ## About
 
