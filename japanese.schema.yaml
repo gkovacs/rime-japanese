@@ -393,13 +393,22 @@ punctuator:
   import_preset: default
 
 key_binder:
-  import_preset: default
   bindings:
-    - {accept: "Control+Shift+f", toggle: simplification, when: always}
-    - {accept: "Control+Shift+F", toggle: simplification, when: always}
-    - {accept: "Control+Shift+t", toggle: simplification, when: always}
-    - {accept: "Control+Shift+T", toggle: simplification, when: always}
-    - {accept: "Control+space", toggle: ascii_mode, when: always}
+    - {accept: "Control+Shift+1", select: .next, when: always}
+    - {accept: "Control+Shift+n", select: japanese, when: always}
+    - {accept: "Control+Shift+N", select: japanese, when: always}
+    - {accept: "Control+Shift+k", select: korean, when: always}
+    - {accept: "Control+Shift+K", select: korean, when: always}
+    - {accept: "Control+Shift+v", select: vietnamese, when: always}
+    - {accept: "Control+Shift+V", select: vietnamese, when: always}
+    - {accept: "Control+Shift+j", select: double_jyutping_extra, when: always}
+    - {accept: "Control+Shift+J", select: double_jyutping_extra, when: always}
+    - {accept: "Control+Shift+p", select: td_pinyin_flypy_extra, when: always}
+    - {accept: "Control+Shift+P", select: td_pinyin_flypy_extra, when: always}
+    - {accept: "Control+Shift+l", select: international, when: always}
+    - {accept: "Control+Shift+L", select: international, when: always}
+    - {accept: "F16", select: .next, when: always}
+    - {accept: "F19", select: international, when: always}
 
 recognizer:
   import_preset: default
