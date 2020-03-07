@@ -403,8 +403,8 @@ key_binder:
     - {accept: "Control+Shift+V", select: vietnamese, when: always}
     - {accept: "Control+Shift+j", select: double_jyutping_extra, when: always}
     - {accept: "Control+Shift+J", select: double_jyutping_extra, when: always}
-    - {accept: "Control+Shift+p", select: td_pinyin_flypy_extra, when: always}
-    - {accept: "Control+Shift+P", select: td_pinyin_flypy_extra, when: always}
+    - {accept: "Control+Shift+m", select: td_pinyin_flypy_extra, when: always}
+    - {accept: "Control+Shift+M", select: td_pinyin_flypy_extra, when: always}
     - {accept: "Control+Shift+l", select: international, when: always}
     - {accept: "Control+Shift+L", select: international, when: always}
     - {accept: "F16", select: .next, when: always}
