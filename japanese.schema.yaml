@@ -20,6 +20,7 @@ switches:
     states: [ 半角, 全角 ]
   - name: simplification
     states: [ 漢字, 汉字 ]
+    reset: 0
   #- options: [jp_variants, zh_simp, zh_tw ]
   #- options: [zh_simp, zh_tw ]
   #  reset: 0
@@ -409,6 +410,9 @@ key_binder:
     - {accept: "Control+Shift+L", select: international, when: always}
     - {accept: "F16", select: .next, when: always}
     - {accept: "F19", select: international, when: always}
+    # [] Pagination
+    - {accept: bracketleft, send: Page_Up , when: has_menu}
+    - {accept: bracketright, send: Page_Down , when: has_menu}
 
 recognizer:
   import_preset: default
